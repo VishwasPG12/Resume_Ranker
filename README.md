@@ -1,4 +1,4 @@
-# AI Resume Ranker
+# Resume Ranker
 
 A simple Streamlit app that compares resumes to job descriptions using TF-IDF and cosine similarity.
 
