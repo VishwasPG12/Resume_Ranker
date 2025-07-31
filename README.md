@@ -1,0 +1,14 @@
+# AI Resume Ranker
+
+A simple Streamlit app that compares resumes to job descriptions using TF-IDF and cosine similarity.
+
+## Features
+- Upload resume as PDF
+- Paste job description
+- Get a similarity score (%) between resume and job
+
+## Installation
+1. Clone the repository:
+   ```bash
+   git clone <your-repo-link>
+   cd Resume_Ranker
