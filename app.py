@@ -12,7 +12,7 @@ def calculate_similarity(resume_text, jd_text):
     vectorizer = TfidfVectorizer(stop_words='english')
     vectors = vectorizer.fit_transform([resume_text, jd_text])
     return cosine_similarity(vectors[0], vectors[1])[0][0] * 100
-st.title("AI Resume Ranker")
+st.title("Resume Ranker")
 resume = st.file_uploader("Upload Resume (PDF)", type=["pdf"])
 jd = st.text_area("Paste Job Description")
 if st.button("Analyze"):
