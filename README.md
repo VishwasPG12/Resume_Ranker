@@ -7,6 +7,9 @@ A simple Streamlit app that compares resumes to job descriptions using TF-IDF an
 - Paste job description
 - Get a similarity score (%) between resume and job
 
+### 🚀 Live Demo
+[Click here to use the app](https://vishwaspg12-resume-ranker.streamlit.app)
+
 ## Installation
 1. Clone the repository:
    ```bash
