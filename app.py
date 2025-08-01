@@ -19,7 +19,7 @@ if st.button("Analyze"):
     if resume and jd:
         resume_text = extract_text_from_pdf(resume)
         score = calculate_similarity(resume_text, jd)
-        st.write(f"Based on your Resume and Job description,your Match Score: {score:.2f}%")
+        # st.write(f"Based on your Resume and Job description,your Match Score: {score:.2f}%")
         if score >= 75:
             st.success(f"Excellent! Your resume ranks {score:.2f}% for this job.")
         elif score >= 50:
